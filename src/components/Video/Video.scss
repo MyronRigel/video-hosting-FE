@@ -1,0 +1,16 @@
+.video-card {
+  width: 40vw;
+  height: 45vh;
+  margin: 20px;
+  box-shadow: 1px 1px 50px cornflowerblue;
+  border: 1px solid gray;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  margin: 20px;
+}
+

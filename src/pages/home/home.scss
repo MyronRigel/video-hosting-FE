@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.section {
+  margin: 50px;
+  height: 75vh;
+  width: 80vw;
+  background-color: black;
+  box-shadow: 1px 1px 50px yellow;
+  h1{
+    color: white;
+    margin: 20px;
+  }
+}
+
+.img-class {
+  margin: 20px;
+  width: 30vw;
+  height: 50vh;
+}
