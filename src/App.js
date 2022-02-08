@@ -14,7 +14,7 @@ function App() {
         <Provider store={store}>
             <NavBar />
             <Routes>
-                <Route path="/home" element={<HomePage/>}/>
+                <Route path="/" element={<HomePage/>}/>
                 <Route path="/upload" element={<UploadPage/>}/>
                 <Route path="/videos" element={<VideosPage/>}/>
             </Routes>

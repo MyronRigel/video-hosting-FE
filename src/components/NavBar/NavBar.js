@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <>
             <nav className="nav">
-                <Button className="link" onClick={() => changeURL('/home')}>Home</Button>
+                <Button className="link" onClick={() => changeURL('/')}>Home</Button>
                 <Button className="link" onClick={() => changeURL('/upload')}>Upload</Button>
                 <Button className="link" onClick={() => changeURL('/videos')}>Videos</Button>
             </nav>
