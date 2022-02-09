@@ -1,9 +1,9 @@
 import axiosInstance from '../../axios/axios'
-import { constants } from '../../utils/constants'
+import uploadAllVideosActionCreator from '../actions/uploadAllVideos.actionCreator'
 
-const getAllVideosThunkCreator = async (dispatch) => {
-    const info = await axiosInstance.get('video/all')
-    dispatch({type: constants.GET_ALL_VIDEOS, payload: info.data})
+const getAllVideosThunkCreator = () => async (dispatch) => {
+  const response = await axiosInstance.get('video/all')
+  dispatch(uploadAllVideosActionCreator(response))
 }
 
 export default getAllVideosThunkCreator
