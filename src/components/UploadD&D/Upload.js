@@ -32,7 +32,7 @@ const UploadComponent = () => {
         <p className="ant-upload-drag-icon">
           <InboxOutlined/>
         </p>
-        <p className="ant-upload-text">Click or drag file to this area to upload</p>
+        <p className="ant-upload-text">Only .mp4 format</p>
         <p className="ant-upload-hint">
           Drop your video here to upload
         </p>
