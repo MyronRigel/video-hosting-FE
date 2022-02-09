@@ -1,3 +1,4 @@
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import HomePage from './pages/home/homePage'

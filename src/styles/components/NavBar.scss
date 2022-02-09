@@ -3,17 +3,16 @@
   width: 100vw;
   background: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   box-shadow: 1px 5px 50px green;
 }
 
 .link {
-  height: 60px;
-  width: 200px;
+  margin: 20px;
 }
 
-.link:hover {
-  background-color: lightgreen;
-}
+
+
+
 

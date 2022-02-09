@@ -1,4 +1,6 @@
+import React from 'react'
 import '../../styles/components/Video.scss'
+import propTypes from 'prop-types'
 
 const Video = ({src, title}) => {
   return (
@@ -10,5 +12,11 @@ const Video = ({src, title}) => {
     </div>
   )
 }
+
+Video.propTypes = {
+  src: propTypes.string,
+  title: propTypes.string
+}
+
 
 export default Video

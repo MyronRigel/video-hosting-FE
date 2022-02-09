@@ -17,7 +17,7 @@ const VideosPage = () => {
 
   return (
     <div className="container">
-      {!!videos.length
+      {videos.length
         ?
         videos.map(name => {
           const title = name.split('.')[1]
